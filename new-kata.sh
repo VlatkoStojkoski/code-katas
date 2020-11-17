@@ -1,5 +1,9 @@
 code .
-mkdir "$1"
-cd "$1"
-touch "$1.js" "$1.test.js" "README.md"
-echo "[Kata Link](https://www.codewars.com/kata/$2)" > README.md
+snake=$(echo $1 | tr '[:upper:]' '[:lower:]' | tr -s ' ' | tr ' ' '-')
+mkdir $snake
+cd $snake
+touch "$snake.js" "$snake.test.js" "README.md"
+echo "[Codewars link](https://www.codewars.com/kata/$2)" > README.md
+cd ..
+echo "- [$1](https://github.com/VlatkoStojkoski/code-katas/tree/main/$snake)" >> README.md
+echo "  _$(date)_" >> README.md
