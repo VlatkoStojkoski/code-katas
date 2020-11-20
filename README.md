@@ -14,3 +14,7 @@ _A **code kata** is an exercise in programming which helps programmers hone thei
   _Nov 17, 2020_
 - [Sort number descending order](https://github.com/VlatkoStojkoski/code-katas/tree/main/sort-number-descending-order)
   _Nov 18, 2020_
+- [Max subarray](https://github.com/VlatkoStojkoski/code-katas/tree/main/max-subarray)
+  _Nov 21, 2020_- [Max subarray](https://github.com/VlatkoStojkoski/code-katas/tree/main/max-subarray)
+  _Nov 21, 2020_- [Max subarray](https://github.com/VlatkoStojkoski/code-katas/tree/main/max-subarray)
+  _Nov 21, 2020_
